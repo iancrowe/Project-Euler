@@ -13,11 +13,12 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
  */
 public class Solution2 {
     public static void main(String args[]){
+
         int b=1;
         int c=1;
         int sum=0;
 
-        for(int a=1;  a < 4000000;){
+        for(int a=0;  a < 4000000;){
             a=b+c;
             c=b;
             b=a;
